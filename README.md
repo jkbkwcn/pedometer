@@ -1,1 +1,1 @@
-# pedometer
+# Pedometer
