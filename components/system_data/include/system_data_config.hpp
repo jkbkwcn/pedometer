@@ -1,0 +1,13 @@
+#ifndef SYSTEM_DATA_CONFIG_H
+#define SYSTEM_DATA_CONFIG_H
+
+namespace pedometer {
+  enum { SYSTEM_STEPS_MIN = 0, SYSTEM_STEPS_MAX = 99999 };
+  enum { SYSTEM_TARGET_STEPS_MIN = 100, SYSTEM_TARGET_STEPS_MAX = 99999 };
+
+  enum { SYSTEM_HOURS_MIN = 0, SYSTEM_HOURS_MAX = 23 };
+  enum { SYSTEM_MINUTES_MIN = 0, SYSTEM_MINUTES_MAX = 59 };
+  enum { SYSTEM_SECONDS_MIN = 0, SYSTEM_SECONDS_MAX = 59 };
+} // namespace pedometer
+
+#endif // SYSTEM_DATA_CONFIG_H
