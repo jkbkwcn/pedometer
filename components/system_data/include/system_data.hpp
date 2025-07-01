@@ -9,7 +9,7 @@ namespace pedometer {
 
   enum : bool { SYSTEM_DECREASE_VAL = false, SYSTEM_INCREASE_VAL = true };
 
-  enum DataField : uint8_t { DATA_STEPS, DATA_STEPS_TARGET, DATA_HOURS, DATA_MINUTES, DATA_SECONDS };
+  enum DataField : uint8_t { DATA_STEPS, DATA_TARGET_STEPS, DATA_HOURS, DATA_MINUTES, DATA_SECONDS };
 
   /**
    * @brief This is a template class for parameter that has its minimum and maximum value
